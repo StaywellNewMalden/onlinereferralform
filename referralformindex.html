@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+	<style>
+	form {
+	color: blue;
+	font-family: arial;
+	}
+</head>
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00D0Y000000M4k8" method="POST">
+
+<input type=hidden name="orgid" value="00D0Y000000M4k8">
+<input type=hidden name="retURL" value="https://www.staywellservices.org.uk/">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="nick.phillips@staywellservices.org.uk">                          -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<label for="description">Description</label><textarea name="description"></textarea><br>
+
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+Name of Referrer from Referring Org:<input  id="00N1v00000TRSxL" maxlength="255" name="00N1v00000TRSxL" size="20" type="text" /><br>
+
+Service:<select  id="00N0Y00000QwaeR" name="00N0Y00000QwaeR" title="Service"><option value="">--None--</option><option value="Day Centres">Day Centres</option>
+<option value="Help@Home">Help@Home</option>
+<option value="Community Team">Community Team</option>
+<option value="Community Connectors">Community Connectors</option>
+<option value="Information, Advice and Advocacy">Information, Advice and Advocacy</option>
+<option value="PAC Team">PAC Team</option>
+<option value="Handyperson">Handyperson</option>
+<option value="Befriending">Befriending</option>
+<option value="In Touch">In Touch</option>
+<option value="Home from Hospital">Home from Hospital</option>
+<option value="Peer Support">Peer Support</option>
+<option value="Bradbury">Bradbury</option>
+<option value="Raleigh House">Raleigh House</option>
+<option value="Kingston Community Furniture">Kingston Community Furniture</option>
+<option value="HR">HR</option>
+<option value="House clearance / Deep clean">House clearance / Deep clean</option>
+</select><br>
+
+Received Date:<span class="dateInput dateOnlyInput"><input  id="00N1v00000SjmyG" name="00N1v00000SjmyG" size="12" type="text" /></span><br>
+
+How did the Referrer hear of service?:<select  id="00N0Y00000S1cUa" name="00N0Y00000S1cUa" title="How did the Referrer hear of service?"><option value="">--None--</option><option value="Staywell website">Staywell website</option>
+<option value="Other website">Other website</option>
+<option value="Other Staywell service">Other Staywell service</option>
+<option value="Social media">Social media</option>
+<option value="Postcard/Leaflet">Postcard/Leaflet</option>
+<option value="Health professional">Health professional</option>
+<option value="Friend/Neighbour">Friend/Neighbour</option>
+<option value="Relative">Relative</option>
+<option value="Event">Event</option>
+<option value="Social care professional">Social care professional</option>
+<option value="Other organisation">Other organisation</option>
+</select><br>
+
+<label for="status">Status</label><select  id="status" name="status"><option value="">--None--</option><option value="Open">Open</option>
+<option value="Pending">Pending</option>
+<option value="Requires Attention">Requires Attention</option>
+<option value="Closed">Closed</option>
+</select><br>
+
+Hospital Reference Number (MRN/MRH):<input  id="00N07000000OHqv" maxlength="60" name="00N07000000OHqv" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
